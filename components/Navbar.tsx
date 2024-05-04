@@ -9,6 +9,9 @@ const Navbar = () => {
       <Link href={"/"} className="nav-item nav-link m-2">
         Home
       </Link>
+      <Link href={"/about"} className="nav-item nav-link m-2">
+        About
+      </Link>
     </nav>
   );
 };
