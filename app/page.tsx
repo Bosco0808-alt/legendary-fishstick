@@ -9,11 +9,12 @@ export default async function Home() {
       <h1 className="m-2">NTHYKYLDSS</h1>
       <p className="m-2">A secondary school</p>
       <h2 className="m-2">News</h2>
-      <ul>
+
+      <ul className={styles.nobullet}>
         {news.map((news) => (
           <li>
-            <h3>{news.title}</h3>
-            <p>{news.description}</p>
+            <h3 className="m-2">{news.title}</h3>
+            <p className="m-2"> {news.description}</p>
           </li>
         ))}
       </ul>
